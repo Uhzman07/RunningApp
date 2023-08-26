@@ -1,0 +1,7 @@
+// Note that in the navigation graph, I added an action to go to the tracking fragment and then set
+ <action
+        android:id="@+id/action_global_trackingFragment"
+        app:destination="@+id/trackingFragment"
+        app:launchSingleTop="true"/>
+
+        // Note that I set launchSingleTop to true so that when we click our notification so as to navigate to the tracking fragment then we would not need to lose data in the running fragment
